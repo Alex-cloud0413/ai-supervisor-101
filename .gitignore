@@ -1,0 +1,22 @@
+# 密钥与本地配置（绝不提交）
+.env
+.env.*
+*.key
+credentials*.yaml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 练习输出
+practice/output/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 截图工具临时文件
+.playwright/
+node_modules/
