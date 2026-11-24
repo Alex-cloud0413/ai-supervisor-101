@@ -178,7 +178,7 @@ Agent 干活是一圈一圈转的。每转一圈，Harness 记作一步（step�
 
 ## 5. 你来读：看这段轨迹，找一找哪里该留心
 
-假设下个月你从 OpenRouter 拉了新快照 `data/openrouter-models-2026-12-01.json`，让 AI 更新一下比价表。你在「轨迹」里看到下面 5 步记录：
+假设下个月你从 OpenRouter 拉了新快照 `data/openrouter-models-2026-12-01.json`，让 AI 更新一下比价表。你在「轨迹」里看到下面 3 步记录：
 
 ```text
 步骤 1  工具  bash   {"command": "python3 build_top10.py"}
