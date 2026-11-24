@@ -15,7 +15,7 @@
 
 为什么有的功能开箱即用，有的非要让 AI 去网上装包？以后 AI 动不动弹出 `pip install xxx` 要你审批，怎么一眼分清它是「正常办公组件」还是「来路不明的可疑包」？
 
-这一课专门把 Python 里的**库（Library / Package）**和 **`pip`** 讲透。
+这一课专门把 Python 里的 **库（Library / Package）** 和 **`pip`** 讲透。
 
 ---
 

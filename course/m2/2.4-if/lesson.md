@@ -33,7 +33,7 @@ if "text" not in outputs:
     return False
 ```
 
-`lyria-3` 依然会大摇大摆过关！只有把条件收紧成**「输出模态必须严格等于纯文字 `["text"]`」**：
+`lyria-3` 依然会大摇大摆过关！只有把条件收紧成「**输出模态必须严格等于纯文字 `["text"]`**」：
 
 ```python
 if outputs != ["text"]:
