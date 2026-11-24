@@ -224,7 +224,7 @@
 ## 参考与事实边界
 
 - **页面实测截图与数据**（采集于 2026-11-24）：
-  - GitHub 首页与官方定价页：[https://github.com/](https://github.com/)、[https://github.com/pricing](https://github.com/pricing)（`Free $0 USD` / `Team $4 USD` / `Enterprise $21 USD`）；
+  - GitHub 首页与官方定价页：[https://github.com/](https://github.com/)、[https://github.com/pricing](https://github.com/pricing)（含 `Free` 免费版、`Team` 与 `Enterprise` 三档套餐说明）；
   - 个人主页示例（Linus Torvalds）：[https://github.com/torvalds](https://github.com/torvalds)；组织主页示例（DeepSeek）：[https://github.com/deepseek-ai](https://github.com/deepseek-ai)；
   - 平台广场与搜索实景：[https://github.com/trending](https://github.com/trending)、[https://github.com/search?q=deepseek-harness&type=repositories](https://github.com/search?q=deepseek-harness&type=repositories)、[https://github.com/topics](https://github.com/topics)、[https://github.com/marketplace](https://github.com/marketplace)。
 - **官方资料**：
