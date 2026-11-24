@@ -79,4 +79,4 @@
 - **3 节样课定稿**：0.1、原 1.4（现 1.3）、4.4 的语气、正文结构、录播脚本与速查卡风格已审定，约定已固化到 `docs/writing-guide.md`。
 - **速查卡阶段规则**：当前只交付 `card.md` 纯文字文案，等作者通知后再批量渲染出图。
 - **M1 按方案 A 重排**：改为 `1.1 路径 → 1.2 终端与常用命令（含 cd/npm/npx/python/pip） → 1.3 危险命令识别表 → 1.4 装好 DeepSeek Harness → 1.5 工作区与权限`；同步在 0.1 开头明说「本课只看不装」，原 1.4 样课迁移编号为 1.3。
-- **双端归档**：在 Google Drive `Life OS System/` 下建立课程归档文件夹并登记至 `content-pipeline-workspace-in-gdrive/cloud/projects.tsv`，后续更新同时同步 GitHub 与 Google Drive。
+- **双端归档**：在 Google Drive `Life OS System/` 下建立课程归档文件夹 `ai-supervisor-101-给AI当监工`（ID: `14V6aPYVb671s6CZT6G3Q6qHUyf2jW3Ks`）并登记至 `content-pipeline-workspace-in-gdrive/cloud/projects.tsv`，后续更新同时同步 GitHub 与 Google Drive。

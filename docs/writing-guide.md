@@ -66,4 +66,4 @@
 
 - 工具功能、安全边界、配置路径以官方文档或实际操作为准，并在文末「参考与事实边界」给出链接与采集日期。
 - 严格区分：实际操作结果 / 官方资料 / 作者说明或推断。
-- 每次课程更新同时同步至 GitHub 仓库（`Alex-cloud0413/ai-supervisor-101`）与 Google Drive `Life OS System/` 下对应的课程归档目录。
+- 每次课程更新同时同步至 GitHub 仓库（`Alex-cloud0413/ai-supervisor-101`）与 Google Drive `Life OS System/ai-supervisor-101-给AI当监工`（ID: `14V6aPYVb671s6CZT6G3Q6qHUyf2jW3Ks`）。
