@@ -1,6 +1,6 @@
-# 课程大纲（v0.4）
+# 课程大纲（v0.5）
 
-> 30 课 + 2 篇附录。时长为录播参考时长。文件夹列为 `course/` 下的路径。
+> 31 课 + 2 篇附录。时长为录播参考时长。文件夹列为 `course/` 下的路径。
 
 ## M0 开篇：AI 到底在你电脑上干了什么
 
@@ -48,9 +48,10 @@
 | 4.1 | Git = 游戏存档 | 理解 commit、diff、回滚 | `m4/4.1-git-basics` |
 | 4.2 | 读懂 diff | 判断 AI 的改动对不对 | `m4/4.2-reading-diff` |
 | 4.3 | 分支与合并 | 理解 branch / merge | `m4/4.3-branches` |
-| 4.4 | GitHub 页面导览（以 DSH 仓库为例） | 认识 GitHub 上每个页面和按钮 | `m4/4.4-github-tour` |
-| 4.5 | 怎么判断一个开源项目靠不靠谱 | 看 Star、提交、Issue、License | `m4/4.5-judge-a-repo` |
-| 4.6 | Issue → PR → 审核 → 合并 | 走完一次完整协作流程 | `m4/4.6-issue-to-pr` |
+| 4.4 | 从 0 认识 GitHub：注册与全平台板块导览 | 从零注册并开启 2FA，认全平台各大功能板块、会搜项目、建私有仓库并管好授权安全 | `m4/4.4-github-platform` |
+| 4.5 | GitHub 仓库页导览（以 DSH 仓库为例） | 认识单个 GitHub 仓库里的每个标签页、按钮和根目录关键文件 | `m4/4.5-github-tour` |
+| 4.6 | 怎么判断一个开源项目靠不靠谱 | 看 Star、提交、Issue、License | `m4/4.6-judge-a-repo` |
+| 4.7 | Issue → PR → 审核 → 合并 | 走完一次完整协作流程 | `m4/4.7-issue-to-pr` |
 
 ## M5 和 AI 高效协作
 

@@ -1,4 +1,4 @@
-# 4.4 GitHub 页面导览（以 DeepSeek Harness 仓库为例）
+# 4.5 GitHub 仓库页导览（以 DeepSeek Harness 仓库为例）
 
 > 学习目标：打开任意一个 GitHub 开源仓库，能认出每个标签页、按钮和根目录文件的作用，在 1 分钟内找到说明书、最新版本号、能否商用、报错去哪查。
 >
@@ -17,18 +17,16 @@
 
 你点开页面，迎面全是英文：`Code`、`Discussions`、`Fork 35.3k`、`Star 284k`、`master`、`42 Tags`、`28,264 Commits`、`Releases`……
 
-其实不用懂代码，这四个问题在页面上都有固定位置，就像逛超市知道「生鲜在里面、收银在出口」一样。这一课把 GitHub 仓库的每一块区域按顺序指给你看。
+上一课 4.4 你已经从零建好了自己的 GitHub 账号、逛熟了全平台的各大板块；这一课我们推开某一个具体仓库的大门，把仓库页面里的每一块区域按顺序指给你看。其实不用懂代码，这四个问题在页面上都有固定位置，就像逛超市知道「生鲜在里面、收银在出口」一样。
 
 ---
 
-## 2. 系统位置：Git 和 GitHub 不是一回事
+## 2. 系统位置：从「平台大厅」走进「单个仓库内部」
 
-在 4.1–4.3 课里，我们学了 **Git**——装在你自己电脑里的版本管理工具，负责存档（commit）、看差异（diff）、切分支（branch）。
-
-**GitHub** 是架在网上的代码托管与协作网站：
+在 4.1–4.3 课里，我们学了 **Git**（你电脑上的本地存档工具）；在 4.4 课里，我们走完了 **GitHub 平台全局板块**（账号、工作台、搜索、趋势榜、新建仓库、安全设置）。这一课聚焦在推开某一个具体 **仓库（Repository）** 后的内部结构：
 
 ```
-你的电脑（本地）                          GitHub（云端网站）
+你的电脑（本地）                          GitHub（云端网站 · 单个仓库内部 ← 【本课位置】）
 ┌─────────────────────────┐             ┌────────────────────────────────────┐
 │ 文件夹 + Git 本地存档    │  ← clone/   │ 公开或私有仓库（Repository）         │
 │ （commit / diff / 分支） │    push →   │ • Code：文件与历史存档                │
@@ -40,8 +38,8 @@
 ```
 
 - **Git 负责什么**：在你电脑上记录每一次改动，断网也能用。
-- **GitHub 负责什么**：把 Git 仓库放到网上，提供网页浏览、云端备份、版本发布、问题讨论和多人审核。
-- **最常见的误解**：把 GitHub 当成软件下载站，或者以为「放在 GitHub 上的东西都公开免费随便商用」。实际上，GitHub 既能建 **Public（公开）** 仓库，也能建 **Private（私有，仅自己或授权成员可见）** 仓库；而公开仓库能不能商用，必须看它的 `LICENSE` 文件。
+- **GitHub 单个仓库页负责什么**：把这个项目的源码、说明书、历史版本、报错讨论和代码审核集中展示在一个页面里。
+- **最常见的误解**：以为「放在 GitHub 上的公开仓库都能随便商用」。实际上，公开仓库能不能商用，必须看仓库根目录里的 `LICENSE` 文件。
 
 ---
 
@@ -49,7 +47,7 @@
 
 打开 [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness)，先看首页全貌：
 
-![DeepSeek Harness 在 GitHub 上的仓库首页](images/4.4-01-repo-home.png)
+![DeepSeek Harness 在 GitHub 上的仓库首页](images/4.5-01-repo-home.png)
 
 把这张页面拆成四个区，从上到下、从左到右逐个认清楚。
 
@@ -67,7 +65,7 @@
 
 很多教程里提到的 `Issues`、`Pull requests`、`Actions` 去哪了？**GitHub 允许仓库管理员按自己的协作方式开关标签页。** DeepSeek Harness 关掉了公开的 `Issues` 和 `Pull requests`，并在说明书里明确写着：反馈和报 Bug 请走 `Discussions`（社区讨论区）。
 
-![DeepSeek Harness 的 Discussions 社区讨论页](images/4.4-05-discussions.png)
+![DeepSeek Harness 的 Discussions 社区讨论页](images/4.5-05-discussions.png)
 
 再看我们后面 M7 要用到的第二个工具 [openai/codex](https://github.com/openai/codex)，它就把最经典的 **7 个标签页**全开着。对比看一次，以后去任何开源仓库都不会迷路：
 
@@ -79,15 +77,15 @@
 | `Discussions` | 讨论区 | 像论坛一样分「公告」「问答」「插件分享」等板块 | 仓库关掉 `Issues` 时（如 DSH），报 Bug 和提问就在这里 |
 | `Actions` | 自动化流水线 | 每次代码变动后，GitHub 自动跑测试和打包的记录（绿勾通过、红叉失败） | 判断项目有没有自动化质检，不用自己动手改 |
 | `Security and quality` | 安全与质量 | 官方披露的安全公告、漏洞反馈政策 | 公司上线前检查有没有未修的高危漏洞 |
-| `Insights` | 数据洞察 | 贡献者列表、最近提交活跃度、代码频率图表 | 判断项目是不是还在持续维护（下一课 4.5 细讲） |
+| `Insights` | 数据洞察 | 贡献者列表、最近提交活跃度、代码频率图表 | 判断项目是不是还在持续维护（下一课 4.6 细讲） |
 
 下面三张图来自 `openai/codex`，让你先眼熟 `Issues`、`Pull requests`、`Actions` 实际长什么样：
 
-![openai/codex 的 Issues 页面，带 bug、windows-os 等分类标签](images/4.4-07-codex-issues.png)
+![openai/codex 的 Issues 页面，带 bug、windows-os 等分类标签](images/4.5-07-codex-issues.png)
 
-![openai/codex 的 Pull requests 页面，显示审核状态与 35/35 自动检查](images/4.4-08-codex-pulls.png)
+![openai/codex 的 Pull requests 页面，显示审核状态与 35/35 自动检查](images/4.5-08-codex-pulls.png)
 
-![openai/codex 的 Actions 页面，绿勾代表自动测试通过，红叉代表失败](images/4.4-09-codex-actions.png)
+![openai/codex 的 Actions 页面，绿勾代表自动测试通过，红叉代表失败](images/4.5-09-codex-actions.png)
 
 ### 3.3 `Code` 主页的核心按钮和右侧栏
 
@@ -101,7 +99,7 @@
 
 点开 `Releases`，就能看到 DSH 的最新版本记录：
 
-![DeepSeek Harness 的 Releases 页面，显示 v0.2.2-rc.5 Pre-release 与更新说明](images/4.4-04-releases.png)
+![DeepSeek Harness 的 Releases 页面，显示 v0.2.2-rc.5 Pre-release 与更新说明](images/4.5-04-releases.png)
 
 注意版本号旁边的黄色小标 **`Pre-release`**，以及版本号里的 **`rc.5`**（Release Candidate，发布候选版）。它直接告诉你一件事：这个版本还在预览迭代期，功能更新很快，也可能出现不兼容调整——这比到处问别人「稳不稳定」准确得多。
 
@@ -111,11 +109,11 @@
 
 1. **`README.md`（中文项目常附带 `README.zh.md`）**：项目总说明书。在 `Code` 首页往下滚就能直接看到排版好的内容，里面写着项目干什么用、怎么安装（图里直接给了 `npx @deepseek-ai/dsh web`）以及社区入口。
 
-![DeepSeek Harness 首页下方渲染出的 README 安装命令与社区链接](images/4.4-02-readme.png)
+![DeepSeek Harness 首页下方渲染出的 README 安装命令与社区链接](images/4.5-02-readme.png)
 
 2. **`LICENSE`**：开源许可证。很多人怕英文法律条款不敢点，其实 GitHub 顶部已经用绿勾和红叉帮你翻译成三栏摘要了：
 
-![DeepSeek Harness 的 LICENSE 页面，GitHub 顶部自动汇总了 MIT License 的权限、限制与条件](images/4.4-03-license.png)
+![DeepSeek Harness 的 LICENSE 页面，GitHub 顶部自动汇总了 MIT License 的权限、限制与条件](images/4.5-03-license.png)
 
 看顶栏三列：
 - **Permissions（允许）**：`Commercial use ✓`（可商用）、`Modification ✓`（可修改）、`Distribution ✓`（可分发）、`Private use ✓`（可私用）；
@@ -125,7 +123,7 @@
 3. **`.gitignore`**：Git 的「不上传清单」。文件名开头带个点 `.` 表示隐藏配置文件，里面列着哪些本地文件绝不能传到 GitHub（例如存 API Key 的 `.env`、临时缓存文件夹）。
 4. **`AGENTS.md`（旁边常见 `CLAUDE.md`）**：**给 AI 看的仓库说明书**。以前开源仓库只放给人看的 `README.md`；现在像 DeepSeek Harness 这类项目，根目录里会专门放一份 `AGENTS.md`，明确规定 AI 改代码前要先看哪份文档、哪些底线不能破。
 
-![DeepSeek Harness 的 AGENTS.md 文件预览与左侧根目录文件树](images/4.4-06-agents-md.png)
+![DeepSeek Harness 的 AGENTS.md 文件预览与左侧根目录文件树](images/4.5-06-agents-md.png)
 
 ---
 
@@ -171,7 +169,7 @@
 
 ## 7. 下一课
 
-认清了 GitHub 上每个按钮和页面的位置之后，下一课 **4.5《怎么判断一个开源项目靠不靠谱》**，我们把 Star、提交时间、Issue/Discussions 响应速度和 License 串成一套 3 分钟体检清单，帮你避开「空壳项目」和「已经停更的坑」。
+认清了单个 GitHub 仓库里每个按钮和页面的位置之后，下一课 **4.6《怎么判断一个开源项目靠不靠谱》**，我们把 Star、提交时间、Issue/Discussions 响应速度和 License 串成一套 3 分钟体检清单，帮你避开「空壳项目」和「已经停更的坑」。
 
 ---
 
