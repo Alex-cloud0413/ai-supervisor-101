@@ -1,4 +1,4 @@
-# 课程大纲（v0.3）
+# 课程大纲（v0.4）
 
 > 30 课 + 2 篇附录。时长为录播参考时长。文件夹列为 `course/` 下的路径。
 
@@ -6,18 +6,18 @@
 
 | 课号 | 标题 | 学习目标 | 文件夹 |
 |---|---|---|---|
-| 0.1 | AI 不是在聊天，是在"干活" | 说清 Agent = 模型 + Harness；看懂"读 → 改 → 跑 → 看 → 再改"循环 | `m0/0.1-ai-is-working` |
-| 0.2 | 你的新角色：AI 的监工 | 知道哪些事必须自己判断 | `m0/0.2-your-new-role` |
+| 0.1 | AI 不是在聊天，是在「干活」 | 说清 Agent = 模型 + Harness；看懂「读 → 改 → 跑 → 看 → 再改」循环（本课只看不装） | `m0/0.1-ai-is-working` |
+| 0.2 | 你的新角色：AI 的监工 | 知道哪些事必须自己判断，掌握发任务前的检查点与验收动作 | `m0/0.2-your-new-role` |
 
-## M1 安装与电脑基本功
+## M1 电脑基本功与安装
 
 | 课号 | 标题 | 学习目标 | 文件夹 |
 |---|---|---|---|
-| 1.1 | 装好 DeepSeek Harness | 启动网页版、配好 Gemini Key（附国内 DeepSeek Key 替代步骤）、跑通第一个任务 | `m1/1.1-install-dsh` |
-| 1.2 | 文件、文件夹和"路径" | 看懂 Windows / Mac 两种路径；认识扩展名和隐藏文件 | `m1/1.2-files-and-paths` |
-| 1.3 | 终端：那个黑色窗口 | 认识 10 个常用命令 | `m1/1.3-terminal` |
-| 1.4 | 危险命令识别表 | AI 请求权限时能判断该不该批 | `m1/1.4-dangerous-commands` |
-| 1.5 | 工作区与权限：给 AI 划好边界 | 会设置 AI 能动哪些文件夹 | `m1/1.5-workspace-permissions` |
+| 1.1 | 文件、文件夹和「路径」 | 看懂 Windows / Mac 两种路径；认识扩展名和隐藏文件（`.env`、`.git`） | `m1/1.1-files-and-paths` |
+| 1.2 | 终端与常用命令 | 看懂终端在干什么；认识常用命令（含 `cd` / `npm` / `npx` / `python` / `pip` 等高频命令） | `m1/1.2-terminal` |
+| 1.3 | 危险命令识别表 | AI 请求权限时能在 4 秒内判断该不该批 | `m1/1.3-dangerous-commands` |
+| 1.4 | 装好 DeepSeek Harness | 启动网页版、配好 Gemini Key（附国内 DeepSeek Key 替代步骤）、跑通第一个任务 | `m1/1.4-install-dsh` |
+| 1.5 | 工作区与权限：给 AI 划好边界 | 会设置 AI 能动哪些文件夹，分清三档访问模式的真实边界 | `m1/1.5-workspace-permissions` |
 
 ## M2 读懂 Python
 

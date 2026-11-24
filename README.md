@@ -20,7 +20,7 @@
 | 模块 | 内容 | 课数 |
 |---|---|---|
 | M0 | 开篇：AI 到底在你电脑上干了什么 | 2 |
-| M1 | 安装与电脑基本功 | 5 |
+| M1 | 电脑基本功与安装 | 5 |
 | M2 | 读懂 Python | 8 |
 | M3 | 一个项目长什么样 | 4 |
 | M4 | Git 与 GitHub | 6 |
@@ -34,7 +34,7 @@
 ## 演示环境
 
 - 主线工具：[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（网页版，版本 `0.2.2-rc.5`）
-- 演示模型：Gemini（国内学员可改用 DeepSeek 官方 API Key，见第 1.1 课）
+- 演示模型：Gemini（国内学员可改用 DeepSeek 官方 API Key，见第 1.4 课）
 - 练习数据：全部为虚构数据，见 [practice/](practice/)
 
 ## 仓库结构
