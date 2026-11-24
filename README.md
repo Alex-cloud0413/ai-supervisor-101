@@ -41,7 +41,7 @@
 
 ```text
 course/      每课一个文件夹：图文稿 lesson.md、录播参考脚本 video-script.md、速查卡 card.md、截图 images/
-practice/    贯穿项目 ai-radar 的公开数据快照、抓取脚本与参考代码（如 build_top10.py）
+practice/    贯穿项目 ai-radar 的标准工程骨架：公开数据快照、配置与依赖（config.yaml / requirements.txt / .env.example）及参考脚本
 docs/        课程大纲、写作规范、决策记录
 ```
 
