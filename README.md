@@ -35,13 +35,13 @@
 
 - 主线工具：[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（网页版，版本 `0.2.2-rc.5`）
 - 演示模型：Gemini（国内学员可改用 DeepSeek 官方 API Key，见第 1.4 课）
-- 练习数据：全部为虚构数据，见 [practice/](practice/)
+- 贯穿项目：`ai-radar`（AI 模型比价与每日情报雷达），练习数据为真实公开接口快照（OpenRouter 模型目录 + Hacker News 首页讨论），见 [practice/](practice/)
 
 ## 仓库结构
 
 ```text
 course/      每课一个文件夹：图文稿 lesson.md、录播参考脚本 video-script.md、速查卡 card.md、截图 images/
-practice/    练习用的虚构数据和示例代码
+practice/    贯穿项目 ai-radar 的公开数据快照与抓取脚本
 docs/        课程大纲、写作规范、决策记录
 ```
 

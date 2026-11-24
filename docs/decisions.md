@@ -80,3 +80,10 @@
 - **速查卡阶段规则**：当前只交付 `card.md` 纯文字文案，等作者通知后再批量渲染出图。
 - **M1 按方案 A 重排**：改为 `1.1 路径 → 1.2 终端与常用命令（含 cd/npm/npx/python/pip） → 1.3 危险命令识别表 → 1.4 装好 DeepSeek Harness → 1.5 工作区与权限`；同步在 0.1 开头明说「本课只看不装」，原 1.4 样课迁移编号为 1.3。
 - **双端归档**：在 Google Drive `Life OS System/` 下建立课程归档文件夹 `ai-supervisor-101-给AI当监工`（ID: `14V6aPYVb671s6CZT6G3Q6qHUyf2jW3Ks`）并登记至 `content-pipeline-workspace-in-gdrive/cloud/projects.tsv`，后续更新同时同步 GitHub 与 Google Drive。
+
+---
+
+## 七、修订记录（v0.5｜2026-11-24）
+
+- **全课主线案例升级为 `ai-radar`（AI 选型与每日情报雷达）**：淘汰原虚构案例「青禾文具 / 小林 / 周老板」，全课统一切换为真实、免 Key 公开数据源——上半场（M0–M4）用 OpenRouter 真实模型目录快照（470 个真实 2026 模型）做多模态模型比价与选型，下半场（M3/M4 接入 → M5/M6 定时与毕业项目）融合 Hacker News / GitHub 每日热点抓取，最终交付学员每天真能用上的个人情报与比价雷达。
+- **Google Drive 审阅体验升级**：同步 Google Drive 时自动将每课 `lesson.md` 转为原生 Google Docs（含内嵌高清截图、原生公式与全宽浅灰代码块），并在顶层 `00-审稿阅读版（Google Docs）/` 建快捷方式；GitHub 仓库仍只保存纯 Markdown 与截图。
