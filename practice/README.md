@@ -10,6 +10,7 @@ practice/
 ├── AGENTS.md                 # 给 AI 看的项目说明书（目录规矩、验收命令与红线）
 ├── requirements.txt          # Python 第三方库依赖清单（openpyxl、PyYAML）
 ├── config.yaml               # 人类可读的参数控制面板（汇率、关键词、热度门槛）
+├── release-radar.yaml        # M6 毕业项目扩展配置：开源仓库 Release 追踪清单
 ├── .env.example              # API 密钥环境变量模板（复制为 .env 后再填真实密钥）
 ├── data/                     # 原始公开数据快照（只读，绝不直接覆盖）
 │   ├── openrouter-models-2026-11-24.json
@@ -17,7 +18,8 @@ practice/
 ├── scripts/                  # 可复用的 Python 脚本
 │   ├── fetch_snapshots.py    # 从公开免 Key 接口刷新最新快照
 │   ├── build_top10.py        # M2 教学参考脚本：筛选多模态商用付费 Top 10 导出 Excel
-│   └── daily_briefing.py     # M3–M5 参考脚本：读取 config.yaml 生成每日 AI 情报简报
+│   ├── daily_briefing.py     # M3–M5 参考脚本：读取 config.yaml 生成每日 AI 情报简报
+│   └── release_radar.py      # M6 毕业项目参考脚本：追踪开源仓库最新 Release（含 Atom 免 Key 兜底）
 └── output/                   # 程序生成的成品目录（已加入 .gitignore，不提交进 Git）
 ```
 
@@ -49,6 +51,9 @@ python3 practice/scripts/build_top10.py
 
 # 按 practice/config.yaml 口径生成每日 AI 情报简报（输出至 practice/output/daily-briefing.md）
 python3 practice/scripts/daily_briefing.py
+
+# M6 毕业项目参考：按 release-radar.yaml 追踪开源仓库最新 Release（输出至 practice/output/release-radar.md）
+python3 practice/scripts/release_radar.py
 
 # 可选：联网刷新最新 OpenRouter 与 Hacker News 公开快照（写入 practice/data/）
 python3 practice/scripts/fetch_snapshots.py

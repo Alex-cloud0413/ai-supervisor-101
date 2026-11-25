@@ -93,5 +93,16 @@
 ## 八、修订记录（v0.6｜2026-11-24）
 
 - **M4 新增零基础 GitHub 平台通识课（`4.4`）**：面向从未注册过 GitHub 的学员，在原「单个仓库页导览」之前新增 **4.4《从 0 认识 GitHub：注册与全平台板块导览》**（覆盖免费额度与注册流程、2FA 安全初始化、个人主页 vs 组织主页、工作台 / 全局搜索 / Explore 趋势榜 / Topics / 新建私有仓库 / Stars 收藏清单 / Marketplace / Settings 授权安全等全平台功能板块）。
-- **M4 编号顺延**：原样课 `4.4` 迁移编号为 **4.5《GitHub 仓库页导览（以 DeepSeek Harness 仓库为例）》**（`course/m4/4.5-github-tour/`），原 `4.5` / `4.6` 顺延为 `4.6` / `4.7`；M4 调整为 7 课，全课总计 **31 课 + 2 篇附录**。
+- **M4 编号顺延**：原样课 `4.4` 迁移编号为 **4.5《GitHub 仓库页导览（以 DeepSeek Harness 仓库为例）》**（`course/m4/4.5-github-tour/`），原 `4.5` / `4.6` 顺延为 `4.6` / `4.7`；M4 调整为 7 课，全课总计 **32 课 + 2 篇附录**。
+
+---
+
+## 九、修订记录（v0.7｜2026-11-24 全课初稿完工）
+
+- **全课 32 课 + 2 篇附录（共 34 篇、102 份三件套文档）全部完成初稿写作与核验**：
+  - M3 新增 `ai-radar` 标准工程骨架（`practice/README.md`、`config.yaml`、`requirements.txt`、`.env.example`、`scripts/daily_briefing.py`）；
+  - M5 新增 `practice/AGENTS.md`（46 行，已在 DSH `0.2.2-rc.5` + `Gemini 3.8 Flash` 实拍 `/plan` 审批流中验证自动注入，并在 M7 7.1 无缝复用于 OpenAI Codex）及 DSH「自动化任务」实机截图；
+  - M6 新增毕业项目参考模块 `practice/release-radar.yaml` 与 `practice/scripts/release_radar.py`（纯标准库 + PyYAML，内置 GitHub API 403 限流时自动降级至官方 `releases.atom` 公开源兜底），同时保持 M2 `build_top10.py` 与 M3 `config.yaml`/`daily_briefing.py` 原貌不断裂；
+  - M7 与两篇国产备选附录（A.1 豆包工作版、A.2 TRAE 版）按决策 9 采用 2026 年 11 月官方中文文档实景截图 + 概念映射 + `[可选补拍]` 交付，并统一同步至 GitHub 与 Google Drive `00-审稿阅读版（Google Docs）/`（34 篇全集）。
+
 

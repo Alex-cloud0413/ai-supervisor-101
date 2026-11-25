@@ -13,7 +13,7 @@
 - 用 AI 解决自己工作里一个真实的重复劳动。
 
 > [!NOTE]
-> 本仓库目前处于写作阶段（私有）。开更后会转为公开，作为课程配套仓库。
+> 全课 **32 课 + 2 篇附录（共 34 篇，含图文稿、录播参考脚本与速查卡文案）** 已完成初稿写作与双端同步，目前处于作者终审阶段（私有）。开更后会转为公开，作为课程配套仓库。
 
 ## 课程结构
 
@@ -35,13 +35,13 @@
 
 - 主线工具：[DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness)（网页版，版本 `0.2.2-rc.5`）
 - 演示模型：Gemini（国内学员可改用 DeepSeek 官方 API Key，见第 1.4 课）
-- 贯穿项目：`ai-radar`（AI 模型比价与每日情报雷达），练习数据为真实公开接口快照（OpenRouter 模型目录 + Hacker News 首页讨论），见 [practice/](practice/)
+- 贯穿项目：`ai-radar`（AI 模型比价与每日情报雷达），练习数据为真实公开接口快照（OpenRouter 模型目录 + Hacker News 首页讨论 + GitHub Releases），见 [practice/](practice/)
 
 ## 仓库结构
 
 ```text
 course/      每课一个文件夹：图文稿 lesson.md、录播参考脚本 video-script.md、速查卡 card.md、截图 images/
-practice/    贯穿项目 ai-radar 的标准工程骨架：公开数据快照、配置与依赖（config.yaml / requirements.txt / .env.example）及参考脚本
+practice/    贯穿项目 ai-radar 的标准工程骨架：公开快照、配置与说明书（config.yaml / release-radar.yaml / AGENTS.md / requirements.txt / .env.example）及参考脚本
 docs/        课程大纲、写作规范、决策记录
 ```
 

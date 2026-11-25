@@ -1,0 +1,9 @@
+# ai-radar 毕业项目（M6）扩展配置：开源工具版本追踪清单
+# 改完保存后运行 python3 practice/scripts/release_radar.py 即生效
+
+output_file: release-radar.md
+timeout_seconds: 10
+repos:
+  - deepseek-ai/deepseek-harness
+  - openai/codex
+  - astral-sh/uv
