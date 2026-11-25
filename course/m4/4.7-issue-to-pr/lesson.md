@@ -19,11 +19,15 @@
 ## 2. 系统位置：把 M4 全部知识串成一条「从需求到上线」的标准流水线
 
 ```
-① 提工单（Issue）                 ② 开分支改代码（4.3 课）              ③ 提交合并请求（PR）
-   写清问题/需求 + 复现步骤   ───→   在 agent/xxx 分支修改并 commit ───→  写明 Summary 与 Fixes #编号
-                                                                               ↓
-⑤ 正式上线（Merge）               ④ 监工验货（Checks + Review）      ← 【本课位置】
-   合入 main + 自动关闭原 Issue  ←──  36 项自动检查全绿 + 看 Files changed 红绿 diff（4.2 课）
+① 提工单（Issue）：写清问题/需求 + 复现步骤
+        ↓
+② 开分支改代码（4.3 课）：在 agent/xxx 分支修改并 commit
+        ↓
+③ 提交合并请求（PR）：写明 Summary 与 Fixes #编号
+        ↓
+④ 监工验货（Checks + Review）：自动检查全绿 + 审 Files changed 红绿 diff  ← 【本课位置】
+        ↓
+⑤ 正式上线（Merge）：合入 main 主线 + 自动关闭原 Issue
 ```
 
 一句话把 4 个英文词翻成人话：
@@ -145,8 +149,8 @@
 ## 参考与事实边界
 
 - **页面实测截图与数据**（均采集于 2026-11-24）：
-  - `openai/codex` Issue `#31520`：[github.com/openai/codex/issues/31520](https://github.com/openai/codex/issues/31520)（创建于 `2026-07-08T03:00:04Z`，16 条评论，于 `2026-07-09T05:08:02Z` 自动关闭）；
-  - `openai/codex` PR `#31667`：[github.com/openai/codex/pull/31667](https://github.com/openai/codex/pull/31667)（分支 `agent/fix-install-compact-release-json` → `main`，2 个文件 `+199 -45`，`Checks 36`，于 `2026-07-09T05:08:00Z` 合并）。
+  - `openai/codex` Issue `#31520`：[github.com/openai/codex/issues/31520](https://github.com/openai/codex/issues/31520) —— 创建于 2026-07-08T03:00:04Z，16 条评论，于 2026-07-09T05:08:02Z 自动关闭；
+  - `openai/codex` PR `#31667`：[github.com/openai/codex/pull/31667](https://github.com/openai/codex/pull/31667) —— 分支 `agent/fix-install-compact-release-json` 合入 `main`，2 个文件 `+199 -45`，`Checks 36`，于 2026-07-09T05:08:00Z 合并。
 - **官方资料**：
   - GitHub 协作工作流官方指南：[GitHub flow — GitHub Docs](https://docs.github.com/en/get-started/using-github/github-flow)；
   - 使用关键词自动关联并关闭 Issue：[Linking a pull request to an issue — GitHub Docs](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue)。

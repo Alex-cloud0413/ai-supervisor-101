@@ -129,7 +129,7 @@
 ## 参考与事实边界
 
 - **页面实测截图与实时元数据**（均采集于 2026-11-24 / UTC 2026-11-25）：
-  - `atom/atom`（[github.com/atom/atom](https://github.com/atom/atom)）：`60.7k` Stars、`17.1k` Forks、`MIT`、已于 `Mar 3, 2023` 归档只读；
+  - [atom/atom](https://github.com/atom/atom)：60.7k Stars、17.1k Forks、MIT 协议，已于 Mar 3, 2023 归档只读；
   - 活跃仓库参照：`deepseek-ai/deepseek-harness`（`286.6k` Stars、`MIT`）、`openai/codex`（`136.3k` Stars、`Apache-2.0`）、`astral-sh/uv`（`92.6k` Stars、`Apache-2.0`）、`grafana/grafana`（`78.1k` Stars、`AGPL-3.0`）、`n8n-io/n8n`（`212k` Stars、Sustainable Use License 与 `.ee.` 企业版条款）。
 - **官方资料**：
   - GitHub 官方开源协议指南：[Choose an open source license](https://choosealicense.com/licenses/)；
