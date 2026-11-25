@@ -6,7 +6,8 @@
 
 ```text
 practice/
-├── README.md                 # 项目总说明书（你正在看的这份）
+├── README.md                 # 项目总说明书（给人看，你正在看的这份）
+├── AGENTS.md                 # 给 AI 看的项目说明书（目录规矩、验收命令与红线）
 ├── requirements.txt          # Python 第三方库依赖清单（openpyxl、PyYAML）
 ├── config.yaml               # 人类可读的参数控制面板（汇率、关键词、热度门槛）
 ├── .env.example              # API 密钥环境变量模板（复制为 .env 后再填真实密钥）
